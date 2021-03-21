@@ -1,0 +1,319 @@
+/*Big tablet to 1200px (widths smaller taht the 1140px row) */
+@media only screen and (max-width: 1700px) {
+    .section-meals{height:550px;}
+    .separate-h2::after{
+        margin: 20px auto;
+        margin-left: 43%;
+    }
+}
+@media only screen and (max-width: 1650px) {
+    header{padding: 3% 10%;}
+@media only screen and (max-width: 1550px) {
+    .section-meals{height:500px;}
+    .navbar-cutom{padding: 1% 0;}
+    .separate-h2::after{
+        margin: 20px auto;
+        margin-left: 50%;
+    }
+}
+
+@media only screen and (max-width: 1485px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 3% 15%;
+    }
+    cite{
+         width: 40%;
+         margin-left: 30%;
+     }
+    .separate-section{padding: 10%;}
+    section { padding: 3% 15%; }
+   h1{font-size: 230%;}
+    
+}
+
+@media only screen and (max-width: 1450px) {
+    .section-meals{height:450px;}
+}
+
+@media only screen and (max-width: 1300px) {
+    .section-meals{height:380px;}
+    #section2{
+        padding-left:10%;
+    padding-right: 10%;}
+    .separate-h2::after{
+        margin: 20px auto;
+        margin-left: 55%;
+    }
+    cite{
+        width: 40%;
+        margin-left: 25%;
+    }
+    blockquote img{
+        margin-left: 20%;
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    
+    #unique{
+        padding-left:10%;
+    padding-right: 10%;
+    }
+     .section-meals{height:280px;}
+}
+@media only screen and (max-width: 1060px) {
+    body{font-size: 18px;}
+    .separate-h2::after{
+        margin: 20px auto;
+        margin-left: 62%;
+    }
+      .section-meals{height:270px;}
+}
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+
+.about{
+    padding-left:10%;
+padding-right: 10%;
+}
+.section-quote{padding: 3% 5%;}
+.section-meals{height:250px;}
+}
+
+
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 990px) {
+    .navbar-custom .navbar-nav .nav-link:hover,
+    .navbar-custom .navbar-nav .nav-link:active {
+        border-bottom: 0;
+    }
+    .separate-p{font-size: 100%;}
+    .works-step{margin-bottom: 20px;}
+    .works-step div{
+        width: 40px;
+        height: 40px;
+        margin-right: 15px;
+        font-size: 120%;
+    }
+    input[type=submit]{margin-bottom: 40px;}
+    .quote-h2{margin-top: 40px;}
+    #img2{text-align: center;}
+    #subscribe{padding-top: 30px;}
+    #first-li, #subscribe h3{font-size: 100%;}
+    footer li{font-size: 100%;}
+    #subscribe p{font-size: 100%;}
+    .section-meals{height:230px;}
+    #section2{
+        padding-left:12%;
+    padding-right: 12%;}
+    .navbar-custom .brand-img2{
+        height: 100px;
+    width: auto;}
+    .sticky.navbar-custom{
+        padding: 0 8%;
+    }
+    cite{
+        width: 50%;
+        margin-left: 20%;
+    }
+    blockquote img{
+        margin-left: 15%;
+        width: 90px;
+    }
+}
+@media only screen and (max-width: 900px) {
+      .section-meals{height:200px;}
+}
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 769px) {
+   
+    body{font-size: 16px;}
+    .section-quote{
+        padding-left:5%;
+      padding-right: 5%;
+    }
+    .input{
+            height: 50px;
+            width: 420px;
+        }
+    .same-length{
+            width: 420px;
+        }
+    .para{height: 120px;}
+    blockquote { font-size: 110%;}
+    cite{font-size: 200%;}
+    p{
+    font-size: 110%;
+    line-height: 165%;
+    }
+    .section-meals{height:170px;}
+    #email{width: 360px;
+    margin-bottom: 10px;
+    }
+    .img1{
+    width: 80%;
+    border-radius:0;
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    -ms-border-radius:0;
+    -o-border-radius:0;
+}
+    .box-shadow{text-align: center;}
+    .separate-h2::after{
+        margin: 20px auto;
+        margin-left: 5%;
+    }
+    cite{
+        font-size: 90%;
+        width: 50%;
+        margin-left: 20%;
+    }
+    blockquote img{
+        margin-left: 15%;
+        width: 80px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .section-meals{height:150px;}
+    cite{
+        font-size: 90%;
+        width: 65%;
+        margin-left: 18%;
+        margin-top: 35px;
+    }
+    blockquote img{
+        margin-left: 15%;
+        width: 80px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .section-meals{height:120px;}
+    .logo-img{
+        width: 100%;
+        height: auto;
+    }
+    h1{font-size: 200%;}
+    .button-full:link,
+    .button-full:visited,
+    .button-ghost:link,
+    .button-ghost:visited{
+        display: block;
+        width: 50%;
+        padding: 7px 0 7px 40px;
+        margin-right: 5px;
+        margin-bottom: 10px;
+    }
+    cite{
+        width: 65%;
+        margin-left: 15%;
+        margin-top: 30px;
+    }
+    blockquote img{
+        margin-left: 12%;
+        width: 70px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .section-meals{height:100px;}
+    .navbar-custom .brand-img1{
+        height: 50px;}
+     
+    .input{
+        width: 290px;
+    }
+    .same-length{
+        width: 290px;
+    }
+    #email{width: 280px;}
+  
+    .button-full:link,
+    .button-full:visited,
+    .button-ghost:link,
+    .button-ghost:visited{
+        margin-bottom: 10px;
+        display: block;
+        width: 60%;
+        padding: 7px 0 7px 30px;
+        margin-right: 10px;
+    }
+    .navbar-custom .brand-img2{
+        height: 80px;
+    width: auto;}
+    cite{
+        font-size: 80%;
+        width: 75%;
+        margin-left: 9%;
+        margin-top: 40px;
+    }
+    blockquote img{
+        margin-left: 8%;
+        width: 70px;
+    }
+}
+@media only screen and (max-width: 380px) {
+   .navbar-custom .brand-img2{
+        height: 70px;}
+    h1{font-size: 190%;}
+    .button-full:link,
+    .button-full:visited,
+    .button-ghost:link,
+    .button-ghost:visited{
+        margin-bottom: 10px;
+        display: block;
+        width: 65%;
+        padding: 7px 0 7px 40px;
+        margin-right: 10px;
+    }
+    .button-full:link,
+    .button-full:visited,
+    .button-ghost:link,
+    .button-ghost:visited{
+        margin-bottom: 10px;
+        display: block;
+        width: 80%;
+        padding: 7px 0 7px 40px;
+        margin-right: 10px;
+    }
+    .section-meals{height:50px;}
+   cite{
+        width: 80%;
+        margin-left: 8%;
+        margin-top: 40px;
+    }
+    blockquote img{
+        margin-left: 2%;
+        width: 70px;
+    }
+}
+
+@media only screen and (max-width: 355px) {
+    h1{font-size: 180%;}
+}
+@media only screen and (max-width: 300px) {
+    .input{
+        width: 240px;
+    }
+    .same-length{
+        width: 240px;
+    }
+    #email{width: 220px;}
+    h1{font-size: 150%;}
+    .button-full:link,
+    .button-full:visited,
+    .button-ghost:link,
+    .button-ghost:visited{
+        margin-bottom: 10px;
+        display: block;
+        width: 80%;
+        padding: 7px 0 7px 30px;
+        margin-right: 10px;
+    }
+}
+
+
+
